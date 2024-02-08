@@ -6,7 +6,7 @@
 npm install
 ```
 
-## How to split your large JSON file ?
+## How to split your large JSON file?
 1. put your large JSON file into data/input folder
 2. set the the count of items for each of file using :
 ```
@@ -23,5 +23,6 @@ npx ts-node split.ts
 ## How to iterate your multiple JSON files?
 Run this command :
 ```
-npx ts-node split.ts 
+npx ts-node iterate.ts 
 ```
+By default will iterate JSON files inside data/outputfolder
