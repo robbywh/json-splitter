@@ -6,7 +6,7 @@
 npm install
 ```
 
-## How to user
+## How to use
 1. put your large JSON file into data/input folder
 2. set the the count of items for each of file using :
 ```
