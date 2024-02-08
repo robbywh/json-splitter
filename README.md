@@ -6,7 +6,7 @@
 npm install
 ```
 
-## How to use
+## How to split your large JSON file ?
 1. put your large JSON file into data/input folder
 2. set the the count of items for each of file using :
 ```
@@ -19,3 +19,9 @@ For example if you have 100 array of objects, it will split into 50 files, and h
 npx ts-node split.ts 
 ```
 4. Check in the data/output folder for the result
+
+## How to iterate your multiple JSON files?
+Run this command :
+```
+npx ts-node split.ts 
+```
