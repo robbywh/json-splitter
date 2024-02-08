@@ -18,7 +18,7 @@ For example if you have 100 array of objects, it will split into 50 files, and h
 ```
 npx ts-node split.ts 
 ```
-4. Check in the data/output folder for the result
+4. Check inside the data/output folder for the result
 
 ## How to iterate your multiple JSON files?
 Run this command :
